@@ -19,6 +19,7 @@ class Controller(Node):
         self.pose = Pose()
         self.set_goal_service = self.create_service(SetGoal,'/set_goal',self.set_goal_callback)
         self.enable_service = self.create_service(Empty,'/enable_goal',self.enable_callback)
+        self.notival_arrival_client = self.create_client(Empty,'/notival_arrival')
         self.goal = np.array([2.0,3.0])
         self.set_isEnable = False
 
@@ -36,11 +37,12 @@ class Controller(Node):
         K = 3.0
         w = K*np.arctan2(np.sin(e),np.cos(e))
         if np.linalg.norm(dp)>0.1:
-            v = 1.0
+            v = 2.0
         else:
             v = 0.0
             w = 0.0
             self.set_isEnable = False
+            self.sent_notival_arrival_request()
         msg.linear.x = v
         msg.angular.z = w
         return msg
@@ -50,6 +52,9 @@ class Controller(Node):
     def enable_callback(self,request,response):
         self.set_isEnable = True
         return response
+    def sent_notival_arrival_request(self):
+        req = Empty.Request()
+        self.future = self.notival_arrival_client.call_async(req)
 
 
 def main(args=None):
