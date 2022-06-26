@@ -3,6 +3,7 @@
 /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/lib/python3.8/site-packages/python_lib/__init__.py
 /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/lib/turtlesim_control/controller.py
 /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/lib/turtlesim_control/scheduler.py
+/home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/share/turtlesim_control/launch/via_point_follower.launch.py
 /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/share/ament_index/resource_index/package_run_dependencies/turtlesim_control
 /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/share/ament_index/resource_index/parent_prefix_path/turtlesim_control
 /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/share/turtlesim_control/environment/ament_prefix_path.sh

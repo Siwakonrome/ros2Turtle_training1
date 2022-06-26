@@ -322,8 +322,8 @@ ament_cmake_symlink_install_directory("/home/siwakon/ROS2_Directory/portman_ws/s
 # install(PROGRAMS "scripts/controller.py" "scripts/scheduler.py" "DESTINATION" "lib/turtlesim_control")
 ament_cmake_symlink_install_programs("/home/siwakon/ROS2_Directory/portman_ws/src/turtlesim_control" PROGRAMS "scripts/controller.py" "scripts/scheduler.py" "DESTINATION" "lib/turtlesim_control")
 
-# install(DIRECTORY "DESTINATION" "share/turtlesim_control")
-ament_cmake_symlink_install_directory("/home/siwakon/ROS2_Directory/portman_ws/src/turtlesim_control" DIRECTORY "DESTINATION" "share/turtlesim_control")
+# install(DIRECTORY "launch" "DESTINATION" "share/turtlesim_control")
+ament_cmake_symlink_install_directory("/home/siwakon/ROS2_Directory/portman_ws/src/turtlesim_control" DIRECTORY "launch" "DESTINATION" "share/turtlesim_control")
 
 # install(FILES "/home/siwakon/ROS2_Directory/portman_ws/build/turtlesim_control/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/turtlesim_control" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/siwakon/ROS2_Directory/portman_ws/src/turtlesim_control" FILES "/home/siwakon/ROS2_Directory/portman_ws/build/turtlesim_control/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/turtlesim_control" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
