@@ -1,0 +1,7 @@
+{
+  "package_name": "turtlesim_interfaces",
+  "non_idl_tuples": [
+    "/home/siwakon/ROS2_Directory/portman_ws/src/turtlesim_interfaces:srv/RandGoal.srv",
+    "/home/siwakon/ROS2_Directory/portman_ws/src/turtlesim_interfaces:srv/SetGoal.srv"
+  ]
+}

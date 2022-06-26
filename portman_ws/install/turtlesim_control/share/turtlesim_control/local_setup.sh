@@ -1,0 +1,1 @@
+/home/siwakon/ROS2_Directory/portman_ws/build/turtlesim_control/ament_cmake_environment_hooks/local_setup.sh

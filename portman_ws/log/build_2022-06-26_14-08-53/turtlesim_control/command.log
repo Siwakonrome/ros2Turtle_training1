@@ -1,0 +1,4 @@
+Invoking command in '/home/siwakon/ROS2_Directory/portman_ws/build/turtlesim_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/siwakon/ROS2_Directory/portman_ws/build/turtlesim_control -- -j12 -l12
+Invoked command in '/home/siwakon/ROS2_Directory/portman_ws/build/turtlesim_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/siwakon/ROS2_Directory/portman_ws/build/turtlesim_control -- -j12 -l12
+Invoking command in '/home/siwakon/ROS2_Directory/portman_ws/build/turtlesim_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/siwakon/ROS2_Directory/portman_ws/build/turtlesim_control
+Invoked command in '/home/siwakon/ROS2_Directory/portman_ws/build/turtlesim_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/siwakon/ROS2_Directory/portman_ws/build/turtlesim_control

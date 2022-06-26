@@ -1,0 +1,45 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/siwakon/ROS2_Directory/portman_ws/build/turtlesim_control
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/share/turtlesim_control/environment/pythonpath.sh
+-- Symlinking: /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/share/turtlesim_control/environment/pythonpath.dsv
+-- Symlinking: /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/lib/python3.8/site-packages/python_lib/__init__.py
+-- Symlinking: /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/lib/turtlesim_control/controller.py
+-- Symlinking: /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/share/ament_index/resource_index/package_run_dependencies/turtlesim_control
+-- Symlinking: /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/share/ament_index/resource_index/parent_prefix_path/turtlesim_control
+-- Symlinking: /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/share/turtlesim_control/environment/ament_prefix_path.sh
+-- Symlinking: /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/share/turtlesim_control/environment/ament_prefix_path.dsv
+-- Symlinking: /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/share/turtlesim_control/environment/path.sh
+-- Symlinking: /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/share/turtlesim_control/environment/path.dsv
+-- Symlinking: /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/share/turtlesim_control/local_setup.bash
+-- Symlinking: /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/share/turtlesim_control/local_setup.sh
+-- Symlinking: /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/share/turtlesim_control/local_setup.zsh
+-- Symlinking: /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/share/turtlesim_control/local_setup.dsv
+-- Symlinking: /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/share/turtlesim_control/package.dsv
+-- Symlinking: /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/share/ament_index/resource_index/packages/turtlesim_control
+-- Symlinking: /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/share/turtlesim_control/cmake/turtlesim_controlConfig.cmake
+-- Symlinking: /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/share/turtlesim_control/cmake/turtlesim_controlConfig-version.cmake
+-- Symlinking: /home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/share/turtlesim_control/package.xml
+Listing '/home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/lib/python3.8/site-packages/python_lib'...
+Compiling '/home/siwakon/ROS2_Directory/portman_ws/install/turtlesim_control/lib/python3.8/site-packages/python_lib/__init__.py'...

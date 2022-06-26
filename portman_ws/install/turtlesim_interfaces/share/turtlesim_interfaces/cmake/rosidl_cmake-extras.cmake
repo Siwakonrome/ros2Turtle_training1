@@ -1,0 +1,1 @@
+/home/siwakon/ROS2_Directory/portman_ws/build/turtlesim_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake
